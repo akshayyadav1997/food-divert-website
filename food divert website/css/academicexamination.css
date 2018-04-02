@@ -1,0 +1,561 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.navbar.navbar-default.navbar-fixed-top
+{
+	background-color: #31301F;
+	
+}
+
+.nav.navbar-nav li:hover
+{
+
+	background-color: #65B883;
+}.navbar.navbar-default
+{
+	background-color: #555555;
+	
+	
+}
+.navbar-brand{
+    /*left:calc(50% - 75px);*/
+    position: relative;
+    padding: 0;
+   top: -25px;
+    border-bottom-color: red;
+}
+.navbar-brand:hover{
+    -webkit-transform: scale(1.2,1.2);
+    top: -28px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .open >a {
+    text-decoration: underline;
+    text-decoration-color: chartreuse;
+    background-color: #333333;
+	display: block;
+}
+
+
+
+
+b{
+	font-size: 100%;
+}
+.nav.navbar-nav li:hover
+{
+
+	background-color: #333333;
+}
+
+
+/*li.dropdown:hover > .dropdown-menu
+{
+	display: block;
+	color: #82A30A;
+}*/
+
+.navbar.navbar-default .nav.navbar-nav > li >a
+{ 
+
+	color: ghostwhite;
+}
+
+
+
+
+
+#main_title
+{
+	
+	padding-top: 60px;
+	background-color: white;
+	vertical-align: middle;
+	
+	
+	
+/*	#E5E5E5*/
+}
+#main_title h2
+{
+
+
+	display: inline-block;
+}
+
+
+
+#back_img
+{
+	
+
+	background-image: url(sfit.jpg);	
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid black;
+	height: 450px;
+	
+}
+
+.card
+{
+	border: 3px solid black;
+	width: 250px;
+	height: 280px;
+	background-color: #E4E4E4;
+	border: 1px solid black;
+	opacity: 0.9;
+	float: right;
+	position: relative;
+	border-radius: 15px;
+	top: 100px;
+	right: 170px;
+
+	
+	padding-top: 40px;
+	
+}
+
+.panel-header
+{
+	text-align: center;
+}
+
+.panel.panel-default
+{
+	top: 10px;
+	
+	
+}
+
+.contain-panels
+{
+	width: 100%;
+}
+
+.panel.panel-default.panel2
+{
+	
+	width: 50%;
+	
+	float: left;
+	
+	
+	
+}
+.panel.panel-default.panel3
+{
+	
+	   width: 45%;
+		
+	    float: right;
+	
+}
+
+
+#placement
+{
+	border: 2px solid black;
+}
+
+.panel.panel-default > .panel-heading.item1
+{
+	
+	background-image: url(infosys.jpg);
+	height: 150px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.panel.panel-default > .panel-heading.item2
+{
+	
+	background-image: url(Lt.jpg);
+	height: 150px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.panel.panel-default > .panel-heading.item3
+{
+	
+	background-image: url(cg.png);
+	height: 150px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#learn_link
+{
+	
+	text-align: center;
+	
+	font-size: 200%;
+	top: 125px;
+	
+	
+}
+
+
+#calender
+{
+	/*border: 2px solid black;
+	*/
+	/*background: linear-gradient(to bottom right, #ccff33 0%, #66ccff 100%);
+	*/
+	background-color: #333333;
+}
+#calender a
+{
+
+ /* width: 30px;
+  height: 80px;
+  
+  border-radius: 0px;
+	*/
+	
+	 border-radius: 0px;
+
+
+	
+}
+#calender h1
+{
+	
+	text-align: center;
+	padding-bottom: 20px;
+	color: white;
+		
+}
+#calender h4
+{
+	
+	text-align: center;
+	padding-bottom: 20px;
+	color: white;
+	
+	
+}
+
+
+.panel.panel-default.calender
+{
+	border: 2px solid black;
+	
+	
+}
+
+.panel.panel-default > .panel-body.calender
+{
+	height: 200px;
+	color: black;
+
+}
+
+.panel.panel-default > .panel-heading.item1_calender
+{
+	
+	background-image: url(Mosaic.png);
+	height: 150px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+
+}
+
+
+
+
+.panel.panel-default > .panel-heading.item2_calender
+{
+	
+	background-image: url(pragati1.jpg);
+	height: 150px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	
+}
+
+.panel.panel-default > .panel-heading.item3_calender
+{
+	
+	background-image: url(prayas.jpg);
+	height: 150px;
+	
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center
+}
+
+.panel.panel-default > .panel-heading.item4_calender
+{
+	
+	background-image: url(iris.jpg);
+	height: 150px;
+	
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+.row
+{
+
+	padding-left: 25px;
+	padding-right: 25px;
+	
+}
+
+
+#placement
+{
+	/*border: 2px solid black;
+	*/
+	/*background: linear-gradient(to bottom right, #ccff33 0%, #66ccff 100%);
+	*/
+	background-color: white;
+	
+	
+}
+#placement a
+{
+	
+ /* width: 20%;
+  height: 35px;
+  
+  border-radius: 0px;
+	*/
+	
+	 border-radius: 0px;
+	
+}
+#placement h1
+{
+	
+	text-align: center;
+	padding-bottom: 20px;
+	color: black;
+		
+}
+#placement h4
+{
+	
+	text-align: justify;
+	padding-bottom: 20px;
+	color: black;
+	
+}
+
+
+.panel.panel-default.placement img
+{
+	padding-left: 20%;
+		
+}
+
+.panel.panel-default > .panel-body.placement
+{
+	height: auto;
+	min-height: 200px;
+	color: black;
+	font-family: Times;
+	font-size: 120%;
+	text-align: justify;
+	word-spacing: 3px;
+	border-radius: 22px;
+}
+
+.panel.panel-default > .panel-heading.item1
+{
+	
+	background-image: url(vision.png);
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border: 2px solid green;
+	background-position: center;
+	
+
+}
+
+.panel.panel-default > .panel-heading.item2
+{
+	
+	background-image: url(mission.png);
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border: 2px solid green;
+	background-position: center;
+}
+
+.panel.panel-default > .panel-heading.item3
+{
+	
+	background-image: url(objective.png);
+	height: 300px;
+	border: 2px solid green;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+/*
+.panel.panel-default > .panel-heading.item4
+{
+	
+	background-image: url(infosys.jpg);
+	height: 200px;
+	
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+*/
+.row
+{
+
+	padding-left: 25px;
+	padding-right: 25px;
+	
+}
+
+
+
+
+
+#hod
+{
+	/*border: 2px solid black;
+	*/
+	/*background: linear-gradient(to bottom right, #ccff33 0%, #66ccff 100%);
+	*/
+	background-color: #333333;
+}
+#hod a
+{
+
+ /* width: 30px;
+  height: 80px;
+  
+  border-radius: 0px;
+	*/
+	
+	 border-radius: 0px;
+
+
+	
+}
+#hod h1
+{
+	
+	text-align: center;
+	padding-bottom: 20px;
+	color: white;
+		
+}
+#hod h4
+{
+	
+	text-align: center;
+	padding-bottom: 20px;
+	color: white;
+	
+	
+}
+
+
+.panel.panel-default.hod
+{
+	border: 2px solid black;
+	
+	
+}
+
+.panel.panel-default > .panel-body.hod
+{
+	height: 200px;
+	color: black;
+
+}
+
+.panel.panel-default > .panel-heading.item1_hod
+{
+	
+	background-image: url(Mosaic.png);
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+
+}
+
+
+
+
+.panel.panel-default > .panel-heading.item2_hod
+{
+	
+	background-image: url(pragati1.jpg);
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	
+}
+
+.panel.panel-default > .panel-heading.item3_hod
+{
+	
+	background-image: url(prayas.jpg);
+	height: 250px;
+	
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center
+}
+
+.panel.panel-default > .panel-heading.item4_hod
+{
+	
+	background-image: url(iris.jpg);
+	height: 250px;
+	
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+.row
+{
+
+	padding-left: 25px;
+	padding-right: 25px;
+	
+}
+
+footer{
+	width: 100%;
+	background-color: #333333;
+	padding: 5px;
+	color: #FFF;
+}
+
+.fa{
+	padding: 20px;
+	font-size: 30px;
+	color: #FFF;
+}
+
+.fa:hover{
+	color: #D5D5D5;
+	text-decoration: none
+}
+.content
+{
+	font-size: 150%;
+	padding-bottom: 50px;
+	padding-top: 20%;
+}

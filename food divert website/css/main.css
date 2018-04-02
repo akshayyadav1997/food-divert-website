@@ -1,0 +1,804 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	/*background: linear-gradient(to top left, #cc99ff 0%, #ffff99 100%);*/
+	 /*background: linear-gradient(to left, #ffffff 0%, #ccccff 100%);
+	 */
+}
+
+.navbar.navbar-default
+{
+	background-color: #555555;
+	
+	
+}
+.navbar-brand{
+    /*left:calc(50% - 75px);*/
+    position: relative;
+    padding: 0;
+   top: -25px;
+    border-bottom-color: red;
+}
+.navbar-brand:hover{
+    -webkit-transform: scale(1.2,1.2);
+    top: -28px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .open >a {
+    text-decoration: underline;
+    text-decoration-color: chartreuse;
+    background-color: #333333;
+	display: block;
+}
+
+
+
+
+
+b{
+	font-size: 100%;
+}
+.nav.navbar-nav li:hover
+{
+
+	background-color: #333333;
+}
+
+
+/*li.dropdown:hover > .dropdown-menu
+{
+	display: block;
+	color: #82A30A;
+}*/
+
+.navbar.navbar-default .nav.navbar-nav > li >a
+{ 
+
+	color: ghostwhite;
+}
+
+
+#main_title
+{
+	
+	padding-top: 60px;
+	
+	vertical-align: middle;
+   /* background-repeat: no-repeat;
+	background-size: cover;*/
+    font-family: 'Titillium Web', sans-serif;
+    /* background: linear-gradient(to top ,rgba(0, 120, 0, 0.7) 0%, rgba(0, 200, 0, 0.7) 90%);*/
+	 /*background: linear-gradient(to top left, #cc6699 0%, #006699 100%);*/
+	 /*background: linear-gradient(to bottom right, #cbcbcb 0%, #555555 100%);*/
+	 background-color : #000034;
+    color: ghostwhite;
+	height: auto;
+	min-height: 300px;
+    background-position: center;
+
+   /* background-image: linear-gradient(to bottom, rgba(0, 100, 0, 0.7) 0%, rgba(0, 100, 0, 0.7) 100%), url(../roshan/SFIT/green.gif);
+	*/
+/*	#E5E5E5*/
+}
+
+#main_title h1{
+	/*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Titillium Web', sans-serif;
+	font-size: 350%;
+    
+}
+
+#stats{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#stats li{
+    list-style-type: none;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 1.2em;
+}
+
+
+
+#main_title h2
+{
+
+
+	display: inline-block;
+	font-family: Poppins;
+}
+
+
+
+#back_img
+{
+	
+
+	background-image: url(../SfitBuilding.jpg);	
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid black;
+	height: 450px;
+	
+}
+
+.card
+{
+	
+	width: 250px;
+	height: 280px;
+	background-color: #E4E4E4;
+	border: 1px solid black;
+	opacity: 0.8s;
+	float: right;
+	position: relative;
+	border-radius: 15px;
+	top: 100px;
+	right: 170px;
+
+	
+	padding-top: 40px;
+	
+}
+
+.panel-header 
+{
+	text-align: center;
+}
+
+.panel.panel-default.welcome_title
+{
+	
+	
+	
+	height: auto;
+	padding-top: 50px;
+	min-height: 350px;
+	/*border: 2px solid black;*/
+	background-color: white;
+	border-style: none;
+	 font-family: 'Open Sans', sans-serif;;
+	text-align: justify;
+	word-spacing: 3px;
+	line-height: 20px;
+	/*box-shadow: 12px 2px #dcdcdc;
+	*/
+
+
+	 /*background: linear-gradient(to bottom right, #ff9933 0%, #ccff33 100%);
+	*/
+	}
+.panel.panel-default.welcome_title .panel-body h4
+{
+	font-size: 140%;
+}
+
+h4{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.contain-panels
+{
+	width: 100%;
+	
+}
+
+.panel.panel-default.panel2
+{
+	
+	width: 50%;
+	height: 400px;
+	
+	float: left;
+	
+	
+	
+}
+.panel.panel-default.panel3
+{
+	
+	   width: 45%;
+	height: 400px;
+		
+	    float: right;
+	
+}
+
+.clear{
+	clear: both;
+}
+.carousel-inner{
+    height: 400px;
+    border-radius: 10px;
+}
+.carousel-inner > .item
+{
+  width: 100%;
+  height: 400px;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#myCarousel.carousel.slide a
+{
+	
+	height: 20%;
+	vertical-align: middle;
+	top: 150px;
+	
+}
+
+.cal_dates
+{
+	background-color: #333333;
+	
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+
+	font-size: 200%;
+}
+
+#placement
+{
+	/*border: 2px solid black;
+	*/
+	/*background: linear-gradient(to bottom right, #ccff33 0%, #66ccff 100%);
+	*/
+	background-color: white;
+	
+	
+}
+#placement a
+{
+	
+ /* width: 20%;
+  height: 35px;
+  
+  border-radius: 0px;
+	*/
+	
+	 border-radius: 0px;
+	
+}
+#placement h1
+{
+	
+	text-align: center;
+	padding-bottom: 20px;
+	color: black;
+		
+}
+#placement h4
+{
+	
+	text-align: justify;
+	padding-bottom: 20px;
+	color: black;
+	
+}
+
+
+.panel.panel-default.placement img
+{
+	padding-left: 20%;
+		
+}
+
+/*.panel.panel-default > .panel-body.placement
+{
+	height: auto;
+	min-height: 200px;
+	color: black;
+	font-family: Times;
+	font-size: 120%;
+	text-align: justify;
+	word-spacing: 3px;
+	border-radius: 22px;
+}*/
+
+.panel.panel-default > .panel-body.vision_img
+{
+	
+	background-image: url(images-1/vision1.jpg);
+	height: 170px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border: 2px solid #999999;
+	
+
+}
+
+/*.panel-body.calender a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+.panel-body.calender a{
+    color: #999999;
+}*/
+
+.panel.panel-default > .panel-body.mission_img
+{
+	
+	background-image: url(images-1/mission1.jpg);
+	height: 170px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border: 2px solid #999999;
+}
+
+
+/*
+.panel.panel-default > .panel-heading.item4
+{
+	
+	background-image: url(infosys.jpg);
+	height: 200px;
+	
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+*/
+.row
+{
+
+	padding-left: 25px;
+	padding-right: 25px;
+	
+}
+
+/*#learn_link
+{
+	
+	text-align: center;
+	
+	display: inline-block;
+	font-size: 150%;
+	
+}*/
+#com
+{
+	/*border: 2px solid black;
+	*/
+	/*background: linear-gradient(to bottom right, #ccff33 0%, #66ccff 100%);
+	*/
+	background-color: white;
+}
+#com a
+{
+	
+ /* width: 20%;
+  height: 35px;
+  
+  border-radius: 0px;
+	*/
+	
+	 border-radius: 0px;
+	
+}
+#com h1
+{
+	
+	text-align: center;
+	padding-bottom: 20px;
+	color: black;
+		
+}
+#com h4
+{
+	
+	text-align: center;
+	padding-bottom: 20px;
+	color: black;
+	
+	
+}
+
+
+.panel.panel-default.com
+{
+	border: 2px solid black;
+	
+	
+}
+
+.panel.panel-default > .panel-body.com
+{
+	height: 120px;
+	color: black;
+	text-align: justify;
+
+}
+
+.panel.panel-default > .panel-heading.item1_com
+{
+	
+	background-image: url(images/ngo.png);
+	height: 270px;
+	background-repeat: no-repeat;
+	background-size: 145%;
+	background-position: center;
+	
+	
+
+}
+
+
+
+
+.panel.panel-default.com > .panel-heading.item2_com /*Trouble*/
+{
+	
+	background-image: url(images/oldagehome.jpg);
+	height: 270px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: top;
+	
+}
+
+.panel.panel-default > .panel-heading.item3_com
+{
+	
+	background-image: url(images/orphanage.jpg);
+	height: 270px;
+	
+	background-repeat: no-repeat;
+	background-size: 120%;
+	background-position: center;
+}
+
+.panel.panel-default > .panel-heading.item4_com
+{
+	
+	background-image: url(images/charity.png);
+	height: 270px;
+	
+	background-repeat: no-repeat;
+	background-size: 120%;
+	background-position: center;
+}
+
+.row
+{
+
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
+#calender
+{
+	/*border: 2px solid black;
+	*/
+	/*background: linear-gradient(to bottom right, #ccff33 0%, #66ccff 100%);
+	*/
+	background-color: #000034;
+}
+#calender a
+{
+
+ /* width: 30px;
+  height: 80px;
+  
+  border-radius: 0px;
+	*/
+	
+	 border-radius: 0px;
+
+
+	
+}
+#calender h1
+{
+	
+	text-align: center;
+	padding-bottom: 20px;
+	color: white;
+		
+}
+#calender h4
+{
+	
+	text-align: center;
+	padding-bottom: 20px;
+	color: white;
+	
+	
+}
+
+
+.panel.panel-default.calender
+{
+	border: 2px solid black;
+	
+	
+}
+
+.panel.panel-default > .panel-body.calender
+{
+	height: 120px;
+	color: black;
+
+}
+
+.panel.panel-default > .panel-heading.item1_calender
+{
+	
+	background-image: url(images/hotel.jpg);
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+
+}
+
+
+
+
+.panel.panel-default > .panel-heading.item2_calender
+{
+	
+	background-image: url(images/partyorganizers.jpg);
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: 120%;
+	background-position: center;
+	
+}
+
+.panel.panel-default > .panel-heading.item3_calender
+{
+	
+	background-image: url(images/weddingorganizers.jpg);
+	height: 250px;
+	
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center
+}
+
+.panel.panel-default > .panel-heading.item4_calender
+{
+	
+	background-image: url(images/eventorganizers.jpg);
+	height: 250px;
+	
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+.row
+{
+
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
+
+#learn_link a
+{
+	text-align: center;
+	
+}
+
+#slide1
+{
+	background-image: url(images/food5.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#slide2
+{
+	background-image: url(images/food4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#slide3
+{
+	background-image: url(images/food6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#slide4
+{
+	background-image: url(images/food7.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.carousel-caption a
+{
+	
+	
+	color: black;
+	
+	border-radius: 5px;
+	width: 100px;
+	height: 100px;
+	
+	
+}
+
+
+footer{
+	width: 100%;
+	background-color:  #000034;
+	padding: 5%;
+	color: #FFF;
+}
+
+.fa{
+	padding: 20px;
+	font-size: 30px;
+	color: #FFF;
+}
+
+.fa:hover{
+	color: #D5D5D5;
+	text-decoration: none
+}
+
+
+.scrollable
+{
+	height: 285px;
+	overflow: scroll;
+}
+
+.panel.panel-default.update_news{
+	
+	
+	border: 1px solid #dcdcdc;
+	/*background: linear-gradient(to bottom right, #3333cc 0%, #ccffff 100%);*/
+	
+	font-family: Tellenium;	
+	background-color: ghostwhite;
+   
+}
+
+.list-group-item a{
+    font-family:  'Open Sans', sans-serif;
+    color: #333333;
+}
+
+.btn-round{
+    border-radius: 22px;
+}
+
+.panel-heading1
+{
+		text-align: center;
+}
+.panel-body.calender a, p{
+    font-family: 'Open Sans', sans-serif;
+}	
+	
+
+
+
+.main_panel{
+	
+	height: auto;
+	background-color: #555555;
+}
+
+
+
+
+
+
+/*calender*/
+
+
+/*.agenda { 
+
+
+}
+
+/* Dates 
+.agenda .agenda-date { width: 170px; }
+.agenda .agenda-date .dayofmonth {
+  width: 40px;
+  font-size: 36px;
+  line-height: 36px;
+  
+  text-align: right;
+  margin-right: 10px; 
+}
+.agenda .agenda-date .shortdate {
+  font-size: 0.75em; 
+}
+
+
+ Times 
+.agenda .agenda-time { width: 140px; } 
+
+
+/* Events 
+.agenda .agenda-events {  } 
+.agenda .agenda-events .agenda-event {  } 
+
+/*@media (max-width: 767px) {
+    
+}
+
+.calender 
+{
+	border: 2px solid black;
+	    background: linear-gradient(to top left, #66ff99 0%, #ffff99 100%);
+
+	
+}
+
+.calender h2
+{
+	
+	text-align: center;
+	
+}
+
+*/
+
+.badge
+{
+
+
+	background-color: ghostwhite;
+	color: blue;
+}
+
+
+
+.blink {
+	-webkit-animation: blink .75s linear infinite;
+	-moz-animation: blink .75s linear infinite;
+	-ms-animation: blink .75s linear infinite;
+	-o-animation: blink .75s linear infinite;
+	 animation: blink .75s linear infinite;
+}
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}

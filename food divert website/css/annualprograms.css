@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar.navbar-default.navbar-fixed-top
+{
+	background-color: #31301F;
+	
+}
+
+.nav.navbar-nav li:hover
+{
+
+	background-color: #65B883;
+}.navbar.navbar-default
+{
+	background-color: #555555;
+	
+	
+}
+.navbar-brand{
+    /*left:calc(50% - 75px);*/
+    position: relative;
+    padding: 0;
+   top: -25px;
+    border-bottom-color: red;
+}
+.navbar-brand:hover{
+    -webkit-transform: scale(1.2,1.2);
+    top: -28px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .open >a {
+    text-decoration: underline;
+    text-decoration-color: chartreuse;
+    background-color: #333333;
+	display: block;
+}
+
+
+
+
+b{
+	font-size: 100%;
+}
+.nav.navbar-nav li:hover
+{
+
+	background-color: #333333;
+}
+
+
+/*li.dropdown:hover > .dropdown-menu
+{
+	display: block;
+	color: #82A30A;
+}*/
+
+.navbar.navbar-default .nav.navbar-nav > li >a
+{ 
+
+	color: ghostwhite;
+}
+
+
+
+
+
+#placement
+{
+	/*border: 2px solid black;
+	*/
+	/*background: linear-gradient(to bottom right, #ccff33 0%, #66ccff 100%);
+	*/
+	background-color: white;
+	
+	
+}
+#placement a
+{
+	
+ /* width: 20%;
+  height: 35px;
+  
+  border-radius: 0px;
+	*/
+	
+	 border-radius: 0px;
+	
+}
+#placement h1
+{
+	
+	text-align: center;
+	padding-bottom: 20px;
+	color: black;
+		
+}
+#placement h4
+{
+	
+	text-align: justify;
+	padding-bottom: 20px;
+	color: black;
+	
+}
+
+
+.panel.panel-default.placement img
+{
+	padding-left: 20%;
+		
+}
+
+.panel.panel-default > .panel-body.placement
+{
+	height: auto;
+	min-height: 200px;
+	color: black;
+	font-family: Times;
+	font-size: 120%;
+	text-align: justify;
+	word-spacing: 3px;
+	border-radius: 22px;
+}
+
+.panel.panel-default > .panel-heading.item1
+{
+	
+	background-image: url(images/iris.jpg);
+	height: 240px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border: 2px solid green;
+	background-position: center;
+	
+
+}
+
+.panel.panel-default > .panel-heading.item2
+{
+	
+	background-image: url(images/Mosaic.png);
+	height: 240px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border: 2px solid green;
+	background-position: center;
+}
+
+.panel.panel-default > .panel-heading.item3
+{
+	
+	background-image: url(AnnualDay1.jpg);
+	height: 340px;
+	border: 2px solid green;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+/*
+.panel.panel-default > .panel-heading.item4
+{
+	
+	background-image: url(infosys.jpg);
+	height: 200px;
+	
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+*/
+.row
+{
+
+	padding-left: 25px;
+	padding-right: 25px;
+	
+}
+
+
+#calender
+{
+	/*border: 2px solid black;
+	*/
+	/*background: linear-gradient(to bottom right, #ccff33 0%, #66ccff 100%);
+	*/
+	background-color: #333333;
+}
+#calender a
+{
+
+ /* width: 30px;
+  height: 80px;
+  
+  border-radius: 0px;
+	*/
+	
+	 border-radius: 0px;
+
+
+	
+}
+#calender h1
+{
+	
+	text-align: center;
+	padding-bottom: 20px;
+	color: white;
+		
+}
+#calender h4
+{
+	
+	text-align: center;
+	padding-bottom: 20px;
+	color: white;
+	
+	
+}
+
+
+.panel.panel-default.calender
+{
+	border: 2px solid black;
+	
+	
+}
+
+.panel.panel-default > .panel-body.calender
+{
+	height: 70px;
+	color: black;
+	padding: 0px;
+
+}
+
+.panel.panel-default > .panel-heading.item1_calender
+{
+	
+	background-image: url(images/2012.jpg);
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: center;
+
+}
+
+
+
+
+.panel.panel-default > .panel-heading.item2_calender
+{
+	
+	background-image: url(images/iris15.jpg);
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: center;
+	
+}
+
+.panel.panel-default > .panel-heading.item3_calender
+{
+	
+	background-image: url(images/iris16.jpg);
+	height: 250px;
+	
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: center
+}
+
+.panel.panel-default > .panel-heading.item4_calender
+{
+	
+	background-image: url(images/2017.jpg);
+	height: 250px;
+	
+	background-repeat: no-repeat;
+	background-size: 80%;
+	
+	background-position: center;
+}
+
+.row
+{
+
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
+
+

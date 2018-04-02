@@ -1,0 +1,227 @@
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .open >a {
+    text-decoration: underline;
+    text-decoration-color: chartreuse;
+    background-color: #333333;
+	display: block;
+}
+
+
+.navbar-brand{
+    /*left:calc(50% - 75px);*/
+    position: relative;
+    padding: 0;
+   top: -25px;
+    border-bottom-color: red;
+}
+.navbar-brand:hover{
+    -webkit-transform: scale(1.2,1.2);
+    top: -28px;
+}
+
+.container-fluid{
+    padding-top:80px;
+}
+.user-details{
+    position: relative;
+    
+}
+.user-details .user-image {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+}
+ .user-image img { 
+     clear: both;
+     margin: auto;
+     position: center;
+}
+
+
+
+
+
+/*This guy*/
+
+.carousel-inner{
+    height: 280px;
+}
+carousel-inner > col-item > photo{
+    margin: 0 auto;
+}
+/*
+.col-item
+{
+    border: 1px solid green;
+    border-radius: 5px;
+    background: #FFF;
+    max-height: 240px;
+    vertical-align: ;
+}
+.col-item .photo img
+{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.col-item .info
+{
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    margin-top: 1px;
+}
+
+.col-item:hover .info {
+    background-color: #F5F5DC;
+}
+.col-item .price
+{
+    /*width: 50%;
+    float: left;
+    margin-top: 5px;
+}
+
+.col-item .price h5
+{
+    line-height: 20px;
+    margin: 0;
+}
+
+.price-text-color
+{
+    color: #219FD1;
+}
+
+.col-item .info .rating
+{
+    color: #777;
+}
+
+.col-item .rating
+{
+    /*width: 50%;
+    float: left;
+    font-size: 17px;
+    text-align: right;
+    line-height: 52px;
+    margin-bottom: 10px;
+    height: 52px;
+}
+
+.col-item .separator
+{
+    border-top: 1px solid #E1E1E1;
+}
+
+.clear-left
+{
+    clear: left;
+}
+
+.col-item .separator p
+{
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.col-item .separator p i
+{
+    margin-right: 5px;
+}
+.col-item .btn-add
+{
+    width: 50%;
+    float: left;
+}
+
+.col-item .btn-add
+{
+    border-right: 1px solid #E1E1E1;
+}
+
+.col-item .btn-details
+{
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+}*/
+.controls
+{
+    margin-top: 20px;
+}
+[data-slide="prev"]
+{
+    margin-right: 10px;
+}
+
+
+.panel.panel-default.one > .panel-heading
+{
+    background-image: url(images/CAPGEMINI.jpg);
+    height: 200px;
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.panel.panel-default.two > .panel-heading
+{
+    background-image: url(images/COGNIZANT.jpg);
+    height: 200px;
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.panel.panel-default.three > .panel-heading
+{
+    background-image: url(images/MACSOFT.png);
+    height: 200px;
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.panel.panel-default.four > .panel-heading
+{
+    background-image: url(images/MINDCRAFT.jpg);
+    height: 200px;
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.panel.panel-default.five > .panel-heading
+{
+    background-image: url(images/DELLOITE.png);
+    height: 200px;
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.panel.panel-default.six > .panel-heading
+{
+    background-image: url(images/IGATE.jpg);
+    height: 200px;
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.panel.panel-default.seven > .panel-heading
+{
+    background-image: url(images/NEEBAL.png);
+    height: 200px;
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.panel.panel-default.eight > .panel-heading
+{
+    background-image: url(images/SIEMENS.png);
+    height: 200px;
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

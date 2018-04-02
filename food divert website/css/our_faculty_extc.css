@@ -1,0 +1,292 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar.navbar-default
+{
+	background-color: #555555;
+	
+	
+}
+.navbar-brand{
+    /*left:calc(50% - 75px);*/
+    position: relative;
+    padding: 0;
+   top: -25px;
+    border-bottom-color: red;
+}
+.navbar-brand:hover{
+    -webkit-transform: scale(1.2,1.2);
+    top: -38px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .open >a {
+    text-decoration: underline;
+    text-decoration-color: chartreuse;
+    background-color: #333333;
+	display: block;
+}
+
+
+
+
+b{
+	font-size: 100%;
+}
+.nav.navbar-nav li:hover
+{
+
+	background-color: #333333;
+}
+
+
+/*li.dropdown:hover > .dropdown-menu
+{
+	display: block;
+	color: #82A30A;
+}*/
+.navbar.navbar-default .nav.navbar-nav > li >a
+{ 
+
+	color: ghostwhite;
+}
+
+.main_title
+{
+	text-align: center;
+	padding-top: 60px;
+	height: 200px;
+}
+.main_title h1
+{
+	padding-top: 30px;
+} 
+.hod
+{
+	position:relative;
+	height: 450px;
+	background-image: url(images-1/extc_hod.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70%;
+	transition: 0.5s;
+	
+}
+
+.hod:hover
+{
+	background-size: 75%;
+}
+.hod:after
+{
+	position: absolute;
+	top: 90%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	white-space: pre-wrap;
+	content: attr(data-text);
+	word-wrap: break-word;
+	transition: 0.5s;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	
+	padding: 0 8px;
+	
+}
+.hod:hover:after
+{
+	opacity: 1;
+	top: 0;
+	padding: 8px;
+	
+}
+
+.hod:first-line
+{
+	color: #fff;
+	font-weight: bold;
+	font-size: 2.5em;
+}
+
+
+.hod_back
+{
+	background-color: #333333;
+	
+}
+.hod_back h2
+{
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+}
+/*
+.hod img
+{
+	width:820px;
+	height: 360px;
+	
+}*/
+/*.panel.panel-default > .panel-body.hod_img
+{
+	
+	background-image: url(HOD_joanne.jpg);
+	height: 380px;	
+	background-repeat: no-repeat;
+	background-size: 65%;
+	background-position: center;
+}*/
+.staff_panel h2
+{
+	text-align: center;
+}
+
+.dropdown-toggle.learn_more
+{
+	font-size: 100%;
+}
+
+
+
+#staff
+{
+	/*border: 2px solid black;
+	*/
+	/*background: linear-gradient(to bottom right, #ccff33 0%, #66ccff 100%);
+	*/
+	background-color: #DCDCDC;
+}
+#staff a
+{
+
+ /* width: 30px;
+  height: 80px;
+  
+  border-radius: 0px;
+	*/
+	
+	 border-radius: 0px;
+
+
+	
+}
+#staff h1
+{
+	
+	text-align: center;
+	padding-bottom: 20px;
+	color: white;
+		
+}
+#staff h4
+{
+	
+	text-align: center;
+	padding-bottom: 20px;
+	color: black;
+	
+	
+}
+
+
+.panel.panel-default.staff
+{
+	border: 0px solid black;
+	
+}
+
+.panel.panel-default > .panel-body.staff
+{
+	height: 200px;
+	color: black;
+	text-align: center;
+}
+
+.panel.panel-default > .panel-heading.item1_staff
+{
+	
+	background-image: url(images-1/AnjaliC.jpg);
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: 65%;
+	background-position: center;
+}
+.panel.panel-default > .panel-heading.item1_staff:hover
+{
+	background-size: 75%;
+}
+.panel.panel-default > .panel-heading.item2_staff
+{
+	
+	background-image: url(images-1/AfreenSayed.jpg);
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: 65%;
+	background-position: center;
+}
+.panel.panel-default > .panel-heading.item2_staff:hover
+{
+	background-size: 75%;
+}
+
+.panel.panel-default > .panel-heading.item3_staff
+{
+	
+	background-image: url(images/Nikita_rai.jpg);
+	height: 250px;
+	
+	background-repeat: no-repeat;
+	background-size: 65%;
+	background-position: center
+}
+
+.panel.panel-default > .panel-heading.item3_staff:hover
+{
+	background-size: 75%;
+}
+
+
+.panel.panel-default > .panel-heading.item4_staff
+{
+	
+	background-image: url(images/prachi_raut.jpg);
+	height: 250px;
+	
+	background-repeat: no-repeat;
+	background-size: 65%;
+	background-position: center;
+}
+.panel.panel-default > .panel-heading.item4_staff:hover
+{
+	background-size: 75%;
+}
+.row
+{
+
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.modal-header
+{
+	
+}
+.modal-body 
+{
+	
+	min-height: 400px;
+	
+	overflow: hidden;
+font-size: 100%;
+	
+}
+
+.modal-dialog
+{
+	width: auto;
+}
